@@ -9,6 +9,7 @@ import { Params, ActivatedRoute } from '@angular/router';
 export class CatComponent implements OnInit {
 
   constructor(private route: ActivatedRoute) { }
+  
   catName:any
   ngOnInit() {
     this.route.params

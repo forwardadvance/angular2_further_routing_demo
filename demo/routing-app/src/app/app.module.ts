@@ -6,11 +6,17 @@ import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CatComponent } from './cat/cat.component';
+import { InsectComponent } from './insect/insect.component';
+import { AntComponent } from './ant/ant.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CatComponent
+    CatComponent,
+    InsectComponent,
+    AntComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
